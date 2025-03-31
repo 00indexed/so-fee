@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Smart Water Monitoring Landing Page
+
+This is a modern landing page for a smart water monitoring system, designed to educate potential customers about water quality issues and showcase the product's features and benefits.
+
+## Features
+
+- Responsive design that works on mobile, tablet, and desktop
+- Interactive feature showcase with annotated product images
+- Information about hard water problems and solutions
+- Product lineup display with key benefits
+- Mobile app preview and features
+- Closed alpha registration system
+- Sleek, modern UI with water-inspired gradients
+
+## Tech Stack
+
+- Next.js 14
+- React
+- Tailwind CSS
+- TypeScript
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+## Deployment
+
+This project is configured for easy deployment on Vercel.
 
 ## Getting Started
 
