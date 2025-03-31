@@ -52,23 +52,49 @@ export function HeroSection() {
           </div>
           
           <div className="pt-6">
-            <Link href="#preorder">
+            <Link href="#register">
               <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full px-8 py-4">
-                PRE-ORDER NOW
+                JOIN CLOSED ALPHA
               </button>
             </Link>
           </div>
         </div>
 
-        <div className="relative hidden md:flex justify-center items-center">
-          <Image 
-            src="/phone1.png" 
-            alt="Smart water monitoring device with mobile app" 
-            width={380} 
-            height={760}
-            className="object-contain z-10"
-            priority
-          />
+        <div className="relative flex justify-center items-center mt-8 md:mt-0">
+          <div className="relative w-full max-w-xs md:max-w-md">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50 rounded-3xl blur-xl -z-10 scale-95 opacity-50"></div>
+            
+            <Image 
+              src="/1_product_bg_removed.png" 
+              alt="Smart water monitoring device" 
+              width={550} 
+              height={800}
+              className="object-contain z-10 mx-auto"
+              priority
+            />
+            
+            {/* Annotation 1 - Left side */}
+            <div className="absolute top-1/3 -left-32 z-20 hidden lg:flex items-center">
+              <div className="text-right mr-2">
+                <p className="font-medium text-sm">Real-time water quality data     </p>
+              </div>
+              <div className="w-24 h-[1px] bg-black relative">
+                <div className="absolute w-2 h-2 rounded-full bg-black -right-1 -top-1"></div>
+                <div className="absolute w-2 h-2 rounded-full bg-black -left-1 -top-1"></div>
+              </div>
+            </div>
+            
+            {/* Annotation 2 - Right side */}
+            <div className="absolute bottom-1/3 -right-40 z-20 hidden lg:flex items-center">
+              <div className="w-24 h-[1px] bg-black relative">
+                <div className="absolute w-2 h-2 rounded-full bg-black -left-1 -top-1"></div>
+                <div className="absolute w-2 h-2 rounded-full bg-black -right-1 -top-1"></div>
+              </div>
+              <div className="text-left ml-2">
+                <p className="font-medium text-sm">Filters out contanimants<br/>& optimises water nutrient levels</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -26,9 +26,9 @@ export function Header() {
         </div>
         
         <div className="flex items-center space-x-4">
-          <Link href="#preorder" className="hidden md:inline-flex">
+          <Link href="#register" className="hidden md:inline-flex">
             <button className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-6 py-2 text-sm font-medium">
-              Pre-Order
+              Join Alpha
             </button>
           </Link>
           <button className="md:hidden" aria-label="Toggle menu">

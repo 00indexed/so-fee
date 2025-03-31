@@ -1,6 +1,7 @@
 import { Header } from "@/components/header";
 import { HeroSection } from "@/components/hero-section";
-import { BentoFeatures } from "@/components/bento-features";
+import { FeatureList } from "@/components/feature-list";
+import { ProductShowcase } from "@/components/product-showcase";
 import { AppSection } from "@/components/app-section";
 import { CommunitySection } from "@/components/community-section";
 import { CTASection } from "@/components/cta-section";
@@ -27,9 +28,11 @@ export default function Home() {
         <Header />
         <HeroSection />
 
-        <div id="features" className="pt-12">
-          <BentoFeatures />
+        <div id="features">
+          <FeatureList />
         </div>
+        
+        <ProductShowcase />
 
         <AppSection />
 
