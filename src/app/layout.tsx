@@ -8,8 +8,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Digital Products Agency - Best Websites, Apps, and 3D Design",
-  description: "We create quality websites, applications, 3D design, motion design and animation. Leaders in web & mobile design and development.",
+  title: "So-fee - Smart Water Monitoring for Your Home",
+  description: "Monitor your water quality with precision and ease for healthier living. Join our closed alpha program today.",
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.svg', type: 'image/svg+xml' }
+    ],
+    apple: '/favicon.svg',
+  }
 };
 
 export default function RootLayout({
@@ -19,6 +26,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
+      </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         {children}
       </body>

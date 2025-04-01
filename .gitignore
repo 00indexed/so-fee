@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# sensitive files
+gen-lang-client-0885278295-ec9bd44729ce.json
+app_design_no_bg.png
