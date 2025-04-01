@@ -27,7 +27,7 @@ export function Header() {
         
         <div className="flex items-center space-x-4">
           <Link href="#register" className="hidden md:inline-flex">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-6 py-2 text-sm font-medium">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-6 py-2 text-sm font-medium transition-colors">
               Join Alpha
             </button>
           </Link>

@@ -67,7 +67,7 @@ export function AppSection() {
               <div className="relative bg-gradient-to-br from-blue-50 to-cyan-50 rounded-3xl p-8 md:p-10 shadow-xl">
                 <div className="absolute inset-0 bg-white/50 rounded-3xl blur-sm -z-10"></div>
                 <Image 
-                  src="/phone1.png" 
+                  src="/phone_no_bg.png" 
                   alt="Water quality monitoring app interface" 
                   width={300} 
                   height={600}

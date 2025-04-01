@@ -53,7 +53,7 @@ export function HeroSection() {
           
           <div className="pt-6">
             <Link href="#register">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full px-8 py-4">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-full px-8 py-4 transition-colors">
                 JOIN CLOSED ALPHA
               </button>
             </Link>

@@ -65,11 +65,11 @@ function FeatureList() {
                 </div>
               </div>
               <div className="flex flex-row gap-4 md:gap-6 items-start">
-                <Battery className="w-5 h-5 mt-1 text-blue-600 flex-shrink-0" />
+                <Check className="w-5 h-5 mt-1 text-blue-600 flex-shrink-0" />
                 <div className="flex flex-col gap-1">
-                  <p className="font-medium">Energy Efficient</p>
+                  <p className="font-medium">Chemical & Sediment Testing</p>
                   <p className="text-muted-foreground text-sm">
-                    Battery-free options available with innovative power-saving technology.
+                    Comprehensive detection of multiple chemicals and sediment levels for complete water composition analysis.
                   </p>
                 </div>
               </div>
