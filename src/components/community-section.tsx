@@ -12,7 +12,7 @@ export function CommunitySection() {
           </h2>
           
           <p className="text-lg text-gray-700">
-            With every user contributing anonymized data, you'll see 
+            With every user contributing anonymized data, you&apos;ll see 
             water hardness trends across your city.
           </p>
           

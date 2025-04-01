@@ -1,4 +1,4 @@
-import { Check, Droplet, AlertTriangle, Clock, BarChart3, Smartphone, Battery } from "lucide-react";
+import { Check, Droplet, AlertTriangle, Clock, BarChart3, Smartphone } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 function FeatureList() {

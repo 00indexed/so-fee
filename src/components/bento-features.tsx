@@ -1,14 +1,12 @@
 import {
   TargetIcon,
   BarChartIcon,
-  BellIcon,
   MobileIcon,
   LockClosedIcon,
   LightningBoltIcon,
 } from "@radix-ui/react-icons";
 
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
-import Image from "next/image";
 
 const features = [
   {

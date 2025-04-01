@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 
 export function HeroSection() {
@@ -8,8 +7,8 @@ export function HeroSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 relative bg-white/30 p-6 md:p-0 md:bg-transparent rounded-2xl backdrop-blur-sm md:backdrop-blur-none">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-800">
-            Sophie's Story<br />
-            is Everyone's Story.
+            Sophie&apos;s Story<br />
+            is Everyone&apos;s Story.
           </h1>
           
           <p className="text-lg md:text-xl text-gray-700">
@@ -46,7 +45,7 @@ export function HeroSection() {
 
           <div className="bg-amber-50 p-4 rounded-lg border border-amber-100 mt-4">
             <p className="text-sm text-gray-700">
-              London tap water averages 293 mg/L calcium carbonate - that's harder 
+              London tap water averages 293 mg/L calcium carbonate - that&apos;s harder 
               than 90% of cities worldwide.
             </p>
           </div>
