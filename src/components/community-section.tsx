@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { Globe } from "@/components/ui/globe"
 
 export function CommunitySection() {
   return (
@@ -40,19 +40,8 @@ export function CommunitySection() {
           </div>
         </div>
         
-        <div className="rounded-xl overflow-hidden shadow-lg bg-white">
-          <Image 
-            src="/map.png" 
-            alt="Map showing water hardness data across London" 
-            width={600}
-            height={500}
-            className="object-contain w-full"
-          />
-          <div className="p-4 bg-white">
-            <p className="text-sm text-gray-700 font-medium">
-              What your neighbors are showering in.
-            </p>
-          </div>
+        <div className="relative flex items-center justify-center aspect-square">
+          <Globe className="scale-125" />
         </div>
       </div>
     </div>

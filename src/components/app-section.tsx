@@ -64,13 +64,13 @@ export function AppSection() {
             </div>
             
             <div className="flex justify-center items-center">
-              <div className="relative bg-gradient-to-br from-blue-50 to-cyan-50 rounded-3xl p-8 md:p-10 shadow-xl">
+              <div className="relative bg-gradient-to-br from-blue-50 to-cyan-50 rounded-3xl p-12 md:p-16 shadow-xl">
                 <div className="absolute inset-0 bg-white/50 rounded-3xl blur-sm -z-10"></div>
                 <Image 
                   src="/phone_no_bg.png" 
                   alt="Water quality monitoring app interface" 
-                  width={300} 
-                  height={600}
+                  width={400} 
+                  height={800}
                   className="object-contain relative z-10"
                   priority
                 />
