@@ -57,20 +57,6 @@ export function CTASection() {
               for homes and apartments everywhere.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-8">
-              <a href="#email-signup">
-                <Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 shadow-md transition-all">
-                  Join Closed Alpha
-                </Button>
-              </a>
-              
-              <a href="#email-signup">
-                <Button variant="outline" size="lg" className="border-2 border-white text-white bg-blue-800/50 hover:bg-blue-700 transition-all shadow-md">
-                  Register Interest
-                </Button>
-              </a>
-            </div>
-            
             <div id="email-signup" className="max-w-lg mx-auto md:mx-0">
               <p className="text-blue-50 mb-3 font-medium">Get early access updates:</p>
               <form onSubmit={handleSubmit} className="space-y-2">
