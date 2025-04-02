@@ -194,29 +194,6 @@ export function AppSection() {
                     </svg>
                   </td>
                 </tr>
-                <tr>
-                  <td className="py-3 px-4">Battery-Free Options</td>
-                  <td className="py-3 px-4 text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </td>
-                  <td className="py-3 px-4 text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </td>
-                  <td className="py-3 px-4 text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </td>
-                  <td className="py-3 px-4 text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </td>
-                </tr>
               </tbody>
             </table>
           </div>
